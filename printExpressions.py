@@ -17,3 +17,8 @@ print("...")
 print("...")
 print("...")
 print("...")
+
+print()
+print(200 + 400)
+print("Good morning, " + "my name is Mason")
+
