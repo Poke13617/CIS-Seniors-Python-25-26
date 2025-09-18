@@ -15,5 +15,5 @@ travelCompanions = "my mother and brother"
 print("The place would likely be " + location)
 print("The cost to go to " + location + " is " + str(cost))
 print("for the price of $" + str(cost) + ", it would last for " + duration)
-print("The activities that I would accomplish during the " + duration + " time period would likely be " + activities)
+print("The activity/activities that I would do during the " + duration + " time period would likely be " + activities)
 print("The only person I would likely bring with me is " + travelCompanions)

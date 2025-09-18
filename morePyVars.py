@@ -13,7 +13,7 @@ age = 18
 print("My name is " + firstName + " " + lastName)
 print("I am in ", gradeLevel, "th grade.")
 print("My favorite subject is " + favoriteSubject)
-print("I have been in school for ", yearsInSchool)
+print("I have been in school for " + str(yearsInSchool) + " years.")
 
 print("\n\n\n")
 print("Mathematical Calculations")
