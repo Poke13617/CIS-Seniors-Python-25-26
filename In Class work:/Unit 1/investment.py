@@ -22,12 +22,12 @@ print("=" * 25)
 
 # Accept the inputs
 investStarter = int(input("Enter the starting amount: "))
-yearsTotal = int(input("How many years total are there"))
-interestRate = int(input("Enter the interest rate as a percent"))
+yearsTotal = int(input("Enter the number of years :"))
+interestRate = int(input("Enter the interest rate as a percent: "))
 
 # Convert the rate to a decimal number
 decIntRate = interestRate / 100
-print(decIntRate)
+
 # Initialize the accumulator for the interest
 
 
