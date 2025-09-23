@@ -22,14 +22,18 @@ print("=" * 25)
 
 # Accept the inputs
 investStarter = int(input("Enter the starting amount: "))
-yearsTotal = int(input("Enter the number of years :"))
+yearsTotal = int(input("Enter the number of years: "))
 interestRate = int(input("Enter the interest rate as a percent: "))
 
 # Convert the rate to a decimal number
 decIntRate = interestRate / 100
 
 # Initialize the accumulator for the interest
-
+i = 0
+while i < int(yearsTotal):
+  investStarter = investStarter * decIntRate
+  print( "Year " + str(i) + "--" + str(investStarter))
+  i += 1
 
 # Display the header for the table
 
@@ -38,3 +42,4 @@ decIntRate = interestRate / 100
 
 
 # Display the totals for the period
+
