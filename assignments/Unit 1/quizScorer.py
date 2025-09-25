@@ -45,7 +45,7 @@ for i in range(1, numQs + 1):
 grade = int((numRight / numQs) * 100)
 print("\n")
 print("=" * 40)
-print("\n" + studentName + "'s Test Score")
+print(studentName + "'s Test Score")
 print('=' * 40)
 print(str(numRight) + "/" + str(numQs))
 print(str(grade) + "%")
