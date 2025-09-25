@@ -32,6 +32,7 @@ totalInterest = 0.0
 
 #Display the header for the table
 
+print("%4s%18s%10s%16s" % "Year", "Starting Balance", "Interest", "Ending Balance")
 
 # Compute and display results for each year
 
