@@ -21,7 +21,7 @@ print("\n\nMy investment tracker")
 print("=" * 40)
 # Accept the inputs
 startBalance = float(input("Enter the investment amount"))
-years = int(input(""))
+years = int(input("Enter the number of years"))
 rate = int(input("Enter the rate as a percent"))
 
 # Convert the rate to a decimal number
@@ -32,7 +32,7 @@ totalInterest = 0.0
 
 #Display the header for the table
 
-print("%4s%18s%10s%16s" % "Year", "Starting Balance", "Interest", "Ending Balance")
+print("%4s%18s%10s%16s" % ("Year", "Starting Balance", "Interest", "Ending Balance"))
 
 # Compute and display results for each year
 
