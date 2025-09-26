@@ -6,6 +6,7 @@ Date: 9/26/25
 studentGrades = list()
 studentNames = list()
 passingGrade = list()
+gradeLetter = list()
 numStudents = int(input("Enter the number of students: "))
 
 for i in range (1, numStudents + 1):
@@ -22,15 +23,17 @@ highestGrade = max(studentGrades)
 lowestGrade = min(studentGrades)
 
 for i in range (1, numStudents + 1):
-    if grade <= 90:
+    if grade >= 90:
         gradeLetter.append("A")
-    elif grade <= 80:
+    elif grade >= 80:
         gradeLetter.append("B")
-    elif grade <= 70:
+    elif grade >= 70:
         gradeLetter.append("C")
-    elif grade <= 60
+    elif grade >= 60:
         gradeLetter.append("D")
+    elif grade < 60:
+        gradeLetter.append("F")
 for i in range (1, numStudents + 1):
-    print(studentNames[i-1])
+    print(studentNames[i-1] + "  " + str(studentGrades[i-1]) + "  " + str(gradeLetter[i-1]))
     print(studentGrades[i-1])
     print(passingGrade[i-1])
