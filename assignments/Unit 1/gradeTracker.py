@@ -23,15 +23,15 @@ highestGrade = max(studentGrades)
 lowestGrade = min(studentGrades)
 
 for i in range (1, numStudents + 1):
-    if grade >= 90:
+    if grade > 89:
         gradeLetter.append("A")
-    elif grade >= 80:
+    elif grade > 79:
         gradeLetter.append("B")
-    elif grade >= 70:
+    elif grade > 69:
         gradeLetter.append("C")
-    elif grade >= 60:
+    elif grade > 59:
         gradeLetter.append("D")
-    elif grade < 60:
+    else:
         gradeLetter.append("F")
 for i in range (1, numStudents + 1):
     print(studentNames[i-1] + "  " + str(studentGrades[i-1]) + "  " + str(gradeLetter[i-1]))
