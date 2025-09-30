@@ -51,7 +51,7 @@ print(str(numRight) + "/" + str(numQs))
 print(str(grade) + "%")
 if grade < 70:
     passing = "Failed"
-elif grade <= 70:
+elif grade >= 70:
     passing = "Passed"
 print("Passing: " + passing)
 # Pass/Fail status
