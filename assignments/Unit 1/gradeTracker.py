@@ -52,15 +52,16 @@ for i in range(1, numStudents + 1):
 
 
 
-# Information printed
-for i in range (1, numStudents + 1):
-    print(studentNames[i-1] + "\n" + str(studentGrades[i-1]) + "  " + str(gradeLetter[i-1]) + "  " + str(isAverage[i-1]))
-    print(studentGrades[i-1])
-    print(passingGrade[i-1])
+# Information printed (placeholder)
+# for i in range (1, numStudents + 1):
+#    print(studentNames[i-1] + "\n" + str(studentGrades[i-1]) + "  " + str(gradeLetter[i-1]) + "  " + str(isAverage[i-1]))
+#    print(studentGrades[i-1])
+#    print(passingGrade[i-1])
 
-print("Highest grade: " + str(max(studentGrades)) + "%")
-print("Lowest grade: " + str(min(studentGrades)) + "%")
-print("Average: " + str(average) + "%")
+# print("Highest grade: " + str(max(studentGrades)) + "%")
+# print("Lowest grade: " + str(min(studentGrades)) + "%")
+# print("Average: " + str(average) + "%")
 
 
-
+# Information printing (actual)
+print("")
