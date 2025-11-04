@@ -47,10 +47,10 @@ grade_book = [
 
 def print_class_report(students):
     """Prints a formatted report for all students"""
-    math = students["math_grade"]
-    english = students["english_grade"]
-    science = students["science_grade"]
-    history = students["history_grade"]
+    math = str(students["math_grade"])
+    english = str(students["english_grade"])
+    science = str(students["science_grade"])
+    history = str(students["history_grade"])
     average_num = (math + science + english + history) / 4
     
 
@@ -62,14 +62,15 @@ def print_class_report(students):
 def find_top_student(students):
     """Returns the student with the highest average"""
     # Your code here
-    pass
+    #pass
 
 def count_honor_students(students):
     """Counts students with average >= 90"""
     # Your code here
-    pass
+    #pass
 '''
 # Test your functions
 print_class_report(grade_book)
+
 #top_student = find_top_student(grade_book)
 #honor_count = count_honor_students(grade_book)
