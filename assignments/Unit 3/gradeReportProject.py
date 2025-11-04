@@ -47,14 +47,6 @@ grade_book = [
 
 def print_class_report(students):
     """Prints a formatted report for all students"""
-    math = str(students["math_grade"])
-    english = str(students["english_grade"])
-    science = str(students["science_grade"])
-    history = str(students["history_grade"])
-    average_num = (math + science + english + history) / 4
-    
-
-    students.update({"average": average_num})
     # Your code here
     #pass
 
