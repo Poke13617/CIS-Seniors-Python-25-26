@@ -38,6 +38,8 @@ student3 = {"name":"Sophia Patel",#input("student 3 - name: "),
             "science_grade":94,#int(input("student 3 - science grade: ")),
             "history_grade":97,#int(input("student 3 - history grade: ")),
             }
+
+
 grade_book = [
     # Add your student dictionaries here
     student1,
