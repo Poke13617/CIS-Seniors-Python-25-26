@@ -17,26 +17,26 @@ science grade
 history grade
 average
 '''
-student1 = {"name": "Emma Rodriguez",#input("student 1 - name: "),
-            "id":"S12345",#input("student 1 - student id: "),
-            "math_grade":95,#int(input("student 1 - math grade: ")),
-            "english_grade":91,#int(input("student 1 - english grade: ")),
-            "science_grade":92,#int(input("student 1 - science grade: ")),
-            "history_grade":89,#int(input("student 1 - history grade: ")),
+student1 = {"name": "Emma Rodriguez",
+            "id":"S12345",
+            "math_grade":95,
+            "english_grade":91,
+            "science_grade":92,
+            "history_grade":89,
             }
-student2 = {"name":"Marcus Chen",#input("student 2 - name: "),
-            "id":"S12346",#input("student 2 - student id: "),
-            "math_grade":87,#int(input("student 2 - math grade: ")),
-            "english_grade":90,#int(input("student 2 - english grade: ")),
-            "science_grade":85,#int(input("student 2 - science grade: ")),
-            "history_grade":88#int(input("student 2 - history grade: ")),
+student2 = {"name":"Marcus Chen",
+            "id":"S12346",
+            "math_grade":87,
+            "english_grade":90,
+            "science_grade":85,
+            "history_grade":8,
             }
-student3 = {"name":"Sophia Patel",#input("student 3 - name: "),
-            "id":"S12347",#input("student 3 - student id: "),
-            "math_grade":98,#int(input("student 3 - math grade: ")),
-            "english_grade":96,#int(input("student 3 - english grade: ")),
-            "science_grade":94,#int(input("student 3 - science grade: ")),
-            "history_grade":97,#int(input("student 3 - history grade: ")),
+student3 = {"name":"Sophia Patel",
+            "id":"S12347",
+            "math_grade":98,
+            "english_grade":96,
+            "science_grade":94,
+            "history_grade":97,
             }
 
 def average_grade(student):
@@ -60,11 +60,17 @@ grade_book = [
 ]
 def formatted_list(student):
     name = student["name"]
+    
     id = student["id"]
+
     math = student["math_grade"]
+
     english = student["english_grade"]
+
     science = student["science_grade"]
+
     history = student["history_grade"]
+
     average_grade = student["average"]
     print("Student:",name)
     print("ID:",id)
@@ -76,15 +82,16 @@ def formatted_list(student):
     print("-" * 30)
     print()
 
+
 def print_class_report():
-    """Prints a formatted report for all students"""
+    
     print("=" * 50)
     print("CLASS GRADE REPORT")
     print("=" * 50)
     print("\n")
-    print(formatted_list(student1))
-    print(formatted_list(student2))
-    print(formatted_list(student3))
+    formatted_list(student1)
+    formatted_list(student2)
+    formatted_list(student3)
     
 
 
