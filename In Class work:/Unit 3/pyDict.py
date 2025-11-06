@@ -66,10 +66,10 @@ def calculate_average(student):
     '''
 
     # Get all the grades
-    math = student1["math_grade"]
-    science = student1["science_grade"]
-    history = student1["history_grade"]
-    english = student1["english_grade"]
+    math = student["math_grade"]
+    science = student["science_grade"]
+    history = student["history_grade"]
+    english = student["english_grade"]
     
 
     # Calculate the average
