@@ -48,10 +48,10 @@ def average_grade(student):
     return average_num
 average = average_grade(student1)
 student1.update({"average": average})
-average = average_grade(student2)
-student2.update({"average": average})
-average = average_grade(student3)
-student3.update({"average": average})
+average2 = average_grade(student2)
+student2.update({"average": average2})
+average3 = average_grade(student3)
+student3.update({"average": average3})
 grade_book = [
     # Add your student dictionaries here
     student1,
@@ -74,8 +74,9 @@ def formatted_list(student):
     print("History:",history)
     print("Average:",average_grade)
     print("-" * 30)
+    print()
 
-def print_class_report(students):
+def print_class_report():
     """Prints a formatted report for all students"""
     print("=" * 50)
     print("CLASS GRADE REPORT")
@@ -84,8 +85,7 @@ def print_class_report(students):
     print(formatted_list(student1))
     print(formatted_list(student2))
     print(formatted_list(student3))
-    # Your code here
-    #pass
+    
 
 
 def find_top_student(students):
@@ -106,8 +106,7 @@ def find_top_student(students):
         print("Average:",student3["average"])
     
     print()
-    # Your code here
-    #pass
+
 
 def count_honor_students(students):
     """Counts students with average >= 90"""
@@ -126,11 +125,10 @@ def count_honor_students(students):
 
     print("Honor Roll Students (avg >= 90):", num_honors)
     print("Total Students:",len(grade_book))
-    # Your code here
-    #pass
+
 
 # Test your functions
-print_class_report(grade_book)
+print_class_report()
 
 print("=" * 50)
 print("CLASS STATISTICS")
