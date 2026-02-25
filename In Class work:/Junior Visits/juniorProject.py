@@ -18,10 +18,11 @@ subject = input("what is your favorite subject?")
 
 # TODO: Ask for their hobby (you pick the variable name!)
 
+
 hobby = input()
 
 # TODO: Ask for their dream job (you pick the variable name!)
-
+dream_job = input("what is your dream job? ") 
 
 # TODO: Display the profile below
 print("")
@@ -31,7 +32,7 @@ print("=" * 40)
 
 # TODO: Print the grade
 
-
+print("")
 # TODO: Print the favorite subject
 
 
