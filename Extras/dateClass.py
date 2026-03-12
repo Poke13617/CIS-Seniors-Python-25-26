@@ -14,12 +14,14 @@ class Date:
 
     # TODO: Write date_to_tuple(date) -- Return (year,month,day)
     def date_to_tuple(date):
-        date = tuple(date.split("/"))
+        date = list(date.split("/"))
+        date.reverse()
+        date = f'{date[0]}, {date[1]}, {date[2]}'
         return date
         # return year, month, day
     # TODO: Write is_after(d1,d2)
     def is_after(d1, d2):
-        return d2 > d1
+        return d2 < d1
     
 
     # --- Test Code ---
